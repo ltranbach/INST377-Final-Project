@@ -6,7 +6,7 @@
 
 3. Developer Manual
 
-    1. This project fetches data from the MET API, stores data in a Supabase database, and is deployed to Vercel.
+    1. This project fetches data from the MET API, stores data in a Supabase database, and is deployed through Vercel.
 
     2. Running the app:
 
@@ -23,6 +23,10 @@
         2. Remote
 
             1. https://inst-377-final-project-mauve.vercel.app/
+          
+        3. Github Repository Link
+      
+            1. https://github.com/ltranbach/INST377-Final-Project.git
 
     3. Structure of the project:
 
@@ -34,7 +38,7 @@
         6. search_page.js
         7. saved_page.html
         8. saved_page.js
-        9. about_page.js
+        9. about_page.html
         10. style.css
         11. README.md
  

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+header {
+    align-content: center;
+}
+
+#nav-bar {
+    text-align: center;
+    background-color: coral;
+    padding: 5px;
+    clear: both;
+}
+
+#footer-bar {
+    text-align: center;
+    background-color: coral;
+    padding: 5px;
+}
+
+#nav-bar li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+#nav-bar li:hover {
+    color:burlywood;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 25px;
+    padding: 15px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.art-card {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.art-info {
+    text-align: center;
+    margin-top: auto;
+}
+
+.department-entry h2 {
+    text-align: center;
+}

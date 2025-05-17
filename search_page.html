@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Virtual Museum Tour - Home</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <link rel = "stylesheet" href = "style.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.3/dist/vanilla-tilt.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src = "search_page.js"></script>
+    </head>
+
+    <body>
+        <header> 
+            <h1>Welcome to the Virtual Museum Tour</h1>
+        </header>
+
+        <nav id = "nav-bar">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "explore_page.html">Explore</a></li>
+                <li><a href = "search_page.html">Search</a></li>
+                <li><a href = "saved_page.html">Saved Art</a></li>
+                <li><a href = "about_page.html">About</a></li>
+            </ul>
+        </nav>
+
+        <h2>Search Page</h2>
+
+        <main>
+            <div id = "search-button">
+                <input type = "text" id ="search-input" placeholder = "Look up artwork or artist!">
+                <button class = "search-button" onclick = "getArt()">Search</button>
+            </div>
+
+            <div id = "search-results" class = "gallery"></div>
+        </main>
+
+        <footer id = "footer-bar">
+            <h2>INST377 Final Project using MET and Supabase API</h2>
+        </footer>
+    </body>
+</html>

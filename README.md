@@ -51,8 +51,14 @@
                     1. insert - used for saving data
 
                     2. select - used for retrieving data
+                  
+    5. This project also utilized several libraries:
+  
+       1. Vanilla Tilt library - allows for the artwork to be tilted, similarly to a 3D card 
+      
+       2. Animate on Scroll library - adds a fading animation when scrolling the pages
 
-    5. Future improvements for the project:
+    6. Future improvements for the project:
 
         1. The design of the website can be improved
 

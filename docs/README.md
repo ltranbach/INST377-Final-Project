@@ -1,10 +1,12 @@
 # INST377-Final-Project
 
-1. For this project, I wanted to utilize the Metropolitan Museum of Art API to create a website that introduces people to the MET and allows them to virtually explore the museum from the comfort of their devices.
+1. Virtual Museum Tour Project
 
-2. This project was intended to be used through the Desktop browser, preferably Google Chrome.
+2. For this project, I wanted to utilize the Metropolitan Museum of Art API to create a website that introduces people to the MET and allows them to virtually explore the museum from the comfort of their devices.
 
-3. Developer Manual
+3. This project was intended to be used through the Desktop browser, preferably Google Chrome.
+
+4. Developer Manual
 
     1. This project fetches data from the MET API, stores data in a Supabase database, and is deployed through Vercel.
 
@@ -16,7 +18,7 @@
 
                 git clone git@github.com:ltranbach/INST377-Final-Project.git
 
-            2. Open Visual Studio and Live Server any of the .html pages, preferably the home_page
+            2. Open Visual Studio and Live Server any of the .html pages, preferably the index.html
 
             3. Explore the website
 
@@ -62,7 +64,11 @@
       
        2. Animate on Scroll library - adds a fading animation when scrolling the pages
 
-    6. Future improvements for the project:
+    6. Testing
+
+        1. Implemented alerts for Supabase testing, giving feedback on whether it works.
+
+    7. Future improvements for the project:
 
         1. The design of the website can be improved
 
@@ -70,4 +76,4 @@
 
         3. Adding a delete button for removing saved artworks
 
-4. Project by Lam Tran Bach for UMD College Park Spring 2025 INST377 Final Project
+5. Project by Lam Tran Bach for UMD College Park Spring 2025 INST377 Final Project
